@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(138, 205, 207);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
